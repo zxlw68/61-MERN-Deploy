@@ -1,0 +1,38 @@
+npm init
+npm i express dotenv mongoose colors
+npm i -D nodemon
+
+ "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+
+npm i express-async-handler
+
+npm i bcryptjs      // encrypt pw store in db
+
+npm i jsonwebtoken
+
+// 3 frontend
+
+npx create-react-app frontend --template redux   // install redux toolkit and react-reduc package
+
+
+// root folder package.json
+"client": "npm start --prefix frontend"
+
+npm i react-router-dom
+
+npm i react-icons
+
+
+
+root package.json
+
+npm i -D concurrently
+
+ "dev":"concurrently \"npm run server\" \"npm run client\""
+
+npm i axios react-toastify
+
+// package.json    "proxy": "http://localhost:5000",
+
+
