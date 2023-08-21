@@ -82,13 +82,15 @@ const getMe = asyncHandler(async (req, res) => {
   // have access of user from authMiddleware
   // req.user = await User.findById(decoded.id).select('-password')
 
-  const { _id, name, email } = await User.findById(req.user.id)
+  // const { _id, name, email } = await User.findById(req.user.id)
 
-  res.status(200).json({
-    id: _id,
-    name,
-    email,
-  })
+  // res.status(200).json({
+  //   id: _id,
+  //   name,
+  //   email,
+  // })
+
+  res.status(200).json(req.user)
 })
 
 //------------------------------------------------------

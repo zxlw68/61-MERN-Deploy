@@ -36,3 +36,14 @@ npm i axios react-toastify
 // package.json    "proxy": "http://localhost:5000",
 
 
+
+
+backend/.env
+
+# NODE_ENV = development
+NODE_ENV = production
+
+
+frontend 
+ npm run build 
+ // let react generate static build folder 
